@@ -1,0 +1,7 @@
+{"level":"INFO","ts":"2025-05-15T15:55:31.363+0800","msg":"初始化完成"}
+{"level":"PANIC","ts":"2025-05-16T17:51:42.546+0800","msg":"监听失败,err:listen tcp: address 0.0.0.09091: missing port in address"}
+{"level":"PANIC","ts":"2025-05-16T17:53:44.432+0800","msg":"监听失败,err:listen tcp 0.0.0.0:9091: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"ERROR","ts":"2025-05-16T18:08:31.266+0800","msg":"Register queru user email:123456@qq.com err:record not found"}
+{"level":"ERROR","ts":"2025-05-23T16:11:54.789+0800","msg":"Info.cache.GetUserInfo  userId:3 err:redis: nil"}
+{"level":"ERROR","ts":"2025-05-23T16:18:18.772+0800","msg":"Info.cache.GetUserInfo  userId:3 err:redis: nil"}
+{"level":"PANIC","ts":"2025-05-24T16:45:58.231+0800","msg":"监听失败,err:listen tcp 0.0.0.0:9091: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}

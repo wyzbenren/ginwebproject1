@@ -1,0 +1,20 @@
+name: gin-demo
+port: 9091
+mode: debug
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  db: gin_demo
+  user: root
+  password: zhouzhan123.
+redis:
+  host: 127.0.0.1:6379
+  dB: 0
+  password:
+logs:
+  path: './logs'
+  level: debug   # debug、info、warn、error,级别越高记录的日志越少
+  max_size: 18000   # MB
+  max_age: 7   # 保留天数
+  max_backups: 7   # 最大备份数
+  compress: true   # 是否压缩,减少磁盘空间
