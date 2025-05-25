@@ -6,7 +6,7 @@ mysql:
   port: 3306
   db: gin_demo
   user: root
-  password: zhouzhan123.
+  password: 
 redis:
   host: 127.0.0.1:6379
   dB: 0
