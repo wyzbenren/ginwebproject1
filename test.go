@@ -16,7 +16,7 @@ func main() {
 	router := internal.Exec()
 	// 创建一个 http.Server 实例
 	s := &http.Server{
-		Addr:           "0.0.0.0:" + strconv.Itoa(config.Config.Port),
+		Addr:           "127.0.0.1:" + strconv.Itoa(config.Config.Port),
 		Handler:        router,
 		ReadTimeout:    10 * time.Second,
 		WriteTimeout:   10 * time.Second,
